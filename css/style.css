@@ -262,6 +262,7 @@ body, body * {
     width: 56px;
     height: 56px;
     background-color: #fce38a;
+    transition: background-color 0.2s linear;
 }
 
 .icon-link:hover{
