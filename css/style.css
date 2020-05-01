@@ -65,21 +65,19 @@ body, body * {
     font-weight: 400;
     text-align: center;
     margin-bottom: 18px;
+    text-transform: none;
 }
 .main-title{
     text-align: center;
     margin-bottom:60px;
-}
-
-.base-title{
-    display: block;
     font-size: 30px;
     color: #333333;
     font-family: "Montserrat";
     font-weight: 700;
     text-transform: uppercase;
 }
-.base-title::after{
+
+.main-title::after{
     display: block;
     content:'';
     width: 60px;
@@ -323,6 +321,7 @@ body, body * {
     font-family: "Roboto";
     font-weight: 300;
     font-style: italic;
+    padding-left: 12px;
 }
 
 .button-imail{
