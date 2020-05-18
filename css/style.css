@@ -312,6 +312,7 @@ body, body * {
     height: 40px;
     border: 1px solid #e7e7e7;
     box-sizing: border-box;
+    padding-left: 12px;
 }
 
 .input-imail::placeholder{
@@ -321,7 +322,6 @@ body, body * {
     font-family: "Roboto";
     font-weight: 300;
     font-style: italic;
-    padding-left: 12px;
 }
 
 .button-imail{
